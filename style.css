@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 900px;
+    border: 1px solid black;
+    height: min-content;
+    text-align: center;
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+.wrapper-top {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.wrapper-bottom {
+    padding: 30px;
+}
+
+.btn-start {
+    margin-top: 20px;
+}
+
+.btn-section {
+    padding: 30px;
+}
